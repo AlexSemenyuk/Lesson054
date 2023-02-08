@@ -1,0 +1,105 @@
+/* Common */
+:root {
+  /* text color */
+  --color-text-primary: rgba(255, 255, 255, 1);
+  /* background */
+  --color-background-body: rgb(226, 226, 226, 1);
+  --color-background-footer: rgb(42, 78, 112, 1);
+  /* text */
+  --text-primary: "Arial", sans-serif;
+}
+
+body {
+  color: var(--color-text-primary);
+  background-color: var(--color-background-body);
+}
+
+footer {
+  background-color: var(--color-background-footer);
+}
+
+.footer {
+  display: flex;
+  letter-spacing: 0.03em;
+  font-weight: 16px;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text-primary);
+}
+
+.list-1 {
+  width: 25%;
+  padding-left: 15%;
+}
+
+.list-2 {
+  width: 35%;
+}
+
+.list-2 {
+  width: 30%;
+}
+
+.list-2 > li {
+  padding-left: 20px;
+}
+
+.list-2 > li {
+  padding-left: 0;
+}
+
+.list-3 > li {
+  display: inline-block;
+  margin: 20px 5px 0 10px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+hr {
+  color: rgb(247, 244, 244);
+}
+
+p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.link-fb {
+  background: url("/icons/fb_gray.png");
+  width: 32px;
+  height: 32px;
+}
+
+.link-fb:hover {
+  background: url("/icons/fb.png");
+}
+
+.link-in {
+  background: url("/icons/insta_gray.png");
+  width: 32px;
+  height: 32px;
+}
+
+.link-in:hover {
+  background: url("/icons/insta.png");
+}
+
+.link-you {
+  background: url("/icons/youtube_gray.png");
+  width: 32px;
+  height: 32px;
+}
+
+.link-you:hover {
+  background: url("/icons/youtube.png"); /* Путь к файлу с заменяемым рисунком */
+}

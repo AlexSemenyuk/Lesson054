@@ -1,0 +1,122 @@
+/* Common */
+:root {
+  /* text color */
+  --color-text-primary: rgba(255, 255, 255, 1);
+  /* background */
+  --color-background-body: rgb(226, 226, 226, 1);
+  --color-background-header: rgb(145, 49, 87, 1);
+  --color-background-menu: rgb(109, 19, 55, 1);
+  --color-background-section-menu: rgb(181, 91, 127, 1);
+  --color-background-section-content: rgb(220, 147, 176, 1);
+  /* text */
+  --text-primary: "Arial", sans-serif;
+}
+
+/* delete list-style */
+.list {
+  list-style: none;
+}
+
+body {
+  color: var(--color-text-primary);
+  background-color: var(--color-background-body);
+  font-family: var(--text-primary);
+
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 32px;
+  padding: 40px 0 40px 60px;
+}
+
+nav {
+  font-size: 32px;
+  padding: 40px 0 40px 60px;
+}
+
+h3 {
+  font-size: 32px;
+  padding: 40px 0 40px 60px;
+  margin: 0;
+}
+
+h4 {
+  font-size: 32px;
+  padding: 40px 0 40px 60px;
+}
+
+header {
+  background-color: var(--color-background-header);
+}
+
+nav {
+  background-color: var(--color-background-menu);
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+main {
+  display: flex;
+}
+
+.content-nav {
+  margin-right: 20px;
+  width: 30%;
+}
+
+.aside-1 {
+  background-color: var(--color-background-section-menu);
+  margin-bottom: 25px;
+  height: 200px;
+}
+.aside-2 {
+  background-color: var(--color-background-section-menu);
+  height: 300px;
+}
+
+.content-main {
+  display: grid;
+  background-color: var(--color-background-section-menu);
+  width: 55%;
+  height: 600px;
+  margin-right: 20px;
+  padding: 0 100px 50px 100px;
+}
+
+.content-main-title {
+  padding: 40px 0 40px 0;
+}
+
+section {
+  background-color: var(--color-background-section-content);
+}
+
+.sec-1 {
+  margin-bottom: 20px;
+}
+
+.aside-3 {
+  background-color: var(--color-background-section-menu);
+  width: 15%;
+  height: 400px;
+}
+
+.title {
+  width: 10px;
+  padding-left: 50%;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--color-background-menu);
+  height: 100px;
+  margin-top: 30px;
+}
+span {
+  margin-top: 3em;
+}
